@@ -191,10 +191,6 @@ end
 
 # # Bonus Questions
 
-# # Since there are multiple bonus questions that ask me
-# # to return the name of a player with the most of some stat, I can use the following methods
-# # to DRY (don't repeat yourself) up my code.
-
 def iterate_through_players_for(name, statistic)
   game_hash.each do |_team, game_data|
     game_data[:players].each do |player|
